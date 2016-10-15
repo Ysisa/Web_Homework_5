@@ -83,6 +83,7 @@ window.onload = function() {
 			alert("You win~");
 		} else if (judge == 0 && flag) {
 			alert("Please don't cheat.");
+			//document.getElementById('cheat').className = 'appear';
 			flag = 0;
 		}
 	}
