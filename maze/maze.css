@@ -1,0 +1,165 @@
+#topline {
+	color: red;
+	font-size: 40px;
+	font-weight: bolder;
+	font-family: cursive;
+	text-align: center;
+}
+
+#lead, #cheat, #guide, #luck {
+	font-family: cursive;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+
+#guide {
+	margin: 0 auto;
+	margin-top: 400px;
+}
+
+#example {
+	margin: 0 auto;
+	margin-top: 20px;
+	height: 50px;
+	width: 100px;
+	background: #EEEEEE;
+	border: 1px solid;
+}
+
+#luck {
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+#topblock, #bottom {
+	width: 500px;
+	height: 50px;
+	background: #EEEEEE;
+}
+
+#topblock {
+	border-style: solid solid none solid;
+	border-width: 1px;
+	position: absolute;
+	right: 710px;
+	top: 164px;
+	transition: all 2s;
+}
+
+#middle-left, #middle-right {
+	width: 151px;
+	height: 150px;
+	background: #EEEEEE;
+}
+
+#middle-left {
+	border-style: none none none solid;
+	border-width: 1px;
+	position: absolute;
+	right: 1060px;
+	top: 215px;
+	transition: all 2s;
+}
+
+#middle-right {
+	border-style: none solid none none;
+	border-width: 1px;
+	position: absolute;
+	right: 710px;
+	top: 215px;
+	transition: all 2s;
+}
+
+#middle-bottom {
+	position: absolute;
+	top: 265px;
+	right: 910px;
+	width: 100px;
+	height: 150px;
+	background: #EEEEEE;
+	transition: all 2s;
+}
+
+#bottom {
+	border-style: none solid solid solid;
+	border-width: 1px;
+	position: absolute;
+	top: 415px;
+	right: 710px;
+	transition: all 2s;
+}
+
+.road {
+	background: black;
+}
+
+#one {
+	width: 152px;
+	height: 50px;
+	position: absolute;
+	right: 1060px;
+	top: 365px;
+}
+
+#two {
+	width: 50px;
+	height: 200px;
+	position: absolute;
+	right: 1010px;
+	top: 265px;
+}
+
+#three {
+	width: 200px;
+	height: 50px;
+	position: absolute;
+	top: 215px;
+	right: 860px;
+}
+
+#four {
+	width: 50px;
+	height: 200px;
+	position: absolute;
+	right: 860px;
+	top: 265px;
+}
+
+#five {
+	width: 152px;
+	height: 50px;
+	position: absolute;
+	right: 710px;
+	top: 365px;
+}
+
+#start {
+	height: 42px;
+	width: 42px;
+	z-index: 99;
+	font-size: 40px;
+	font-weight: bolder;
+	font-family: fantasy;
+	border-style: double;
+	background: green;
+	text-align: center;
+	position: absolute;
+	right: 1164px;
+	top: 366px;
+}
+
+#end {
+	height: 42px;
+	width: 42px;
+	z-index: 99;
+	font-size: 40px;
+	font-weight: bolder;
+	font-family: fantasy;
+	border-style: double;
+	background: yellow;
+	text-align: center;
+	position: absolute;
+	right: 710px;
+	top: 366px;
+}

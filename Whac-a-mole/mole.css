@@ -1,0 +1,106 @@
+/*basic property*/
+#body {
+	margin: 0px;
+	width: auto;
+	height: auto;
+}
+
+input {
+	width: 200px;
+	height: 25px;
+}
+
+li {
+	margin: 5px;
+	display: inline-block;
+	border: 6px dashed;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	list-style: none;
+}
+
+/*the name of game and the lead*/
+#topline {
+	text-align: center;
+	font-family: cursive;
+}
+
+#topline #names {
+	font-size: 50px;
+	font-weight: bold;
+}
+
+/*recorder and game*/
+#game {
+	text-align: center;
+}
+
+/*first line*/
+#first-line {
+	margin-top: 20px;
+}
+
+#first-line #start-stop {
+	font-size: 15px;
+	font-weight: bold;
+	display: inline;
+	margin-right: 58px;
+	width: 204px;
+	height: 30px;
+}
+
+#first-line #time-recorder {
+	font-size: 20px;
+	font-weight: bold;
+	display: inline;
+}
+
+#first-line #time-recorder #recorder {
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+/*second line*/
+#second-line {
+	margin-top: 12px;
+}
+
+#second-line #condition {
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	margin-right: 50px;
+}
+
+#second-line #score {
+	font-size: 20px;
+	font-weight: bold;
+	display: inline;
+}
+
+#second-line #score #gains {
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+/*property of game's body*/
+#game-body {
+	width: 500px;
+	border-width: 2px;
+	border-style: solid none solid none;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*instructions' position*/
+#instructions {
+	width: 800px;
+	margin: 0 auto;
+	font-size: 20px;
+	font-family: cursive;
+}
